@@ -10,6 +10,16 @@ Add the following JavaScript snippet before the `</body>` on your page
 ### Adding an embedded widget
 To show an open, embedded widget on your page add the following HTML in the location you would like it shown and replace the values in `{}`
 
+#### Minimal Example
+
+```
+<div
+    data-cynetwidget="true"
+    data-cynetwidget-integration-id="{YOUR_INTEGRATION_ID}"
+></div>
+```
+#### Full Example
+
 ```
 <div
     data-cynetwidget="true"
